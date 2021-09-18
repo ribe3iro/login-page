@@ -1,0 +1,68 @@
+body{
+    background-color: #091118;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form > *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    color: white;
+    background-color: #172A3A;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+input{
+    font-size: 15px;
+    margin: 10px
+}
+
+#inputUser, #inputPassword{
+    transition: 500ms;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #172A3A;
+    border: 1px solid #a8a8a8;
+    color: white;
+}
+
+::placeholder { 
+    color: #a8a8a8;
+    opacity: 1;
+  }
+
+#inputUser:focus, #inputPassword:focus{
+    transition: 500ms;
+    background-color: #172A3A;
+    border: 1px solid #09BC8A;
+    color: #09BC8A;
+    transform: scale(1.1);
+}
+
+#inputSubmit{
+    transition: 500ms;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: #3f3f3f;
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+
+#inputSubmit:hover{
+    transition: 500ms;
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
